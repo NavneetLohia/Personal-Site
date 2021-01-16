@@ -1,0 +1,214 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  font-size: 20px;
+  color: #40514E;
+  line-height: 2;
+}
+
+h1 {
+  margin: 20px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 80px;
+  color: #66BFBF;
+}
+
+h2 {
+  margin: 20px auto 20px auto;
+  padding-bottom: 2rem;
+  font-family: 'Montserrat', sans-serif;
+  color: #66BFBF;
+}
+
+h3 {
+  margin: 10px;
+  font-family: 'Montserrat', sans-serif;
+  color: #66BFBF;
+}
+
+hr {
+  border: dotted #EAF6F6 10px;
+  border-bottom: none;
+  width: 5%;
+  margin: 100px auto;
+}
+
+em {
+  font-weight: bold;
+}
+
+.html-image, .css-image, .js-image, .jquery-image{
+  width: 200px;
+  height: 200px;
+  padding: 2rem;
+}
+
+.developer-image {
+  width: 400px;
+  height: 400px;
+  padding: 1.5rem;
+  margin-right: 18%;
+  margin-bottom: 30px;
+}
+
+.top-container {
+  background-color: #191970;
+  padding-top: 50px;
+}
+
+.cppsecrets {
+  width: 400px;
+  height: 100px;
+}
+
+.cpplink {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: orange;
+}
+
+.Certifications-class {
+  margin: 30px auto;
+}
+
+.exper {
+  width: 50%;
+  margin: 10px auto;
+}
+
+.exp-para {
+  margin: 20px auto;
+}
+
+.middle-container {
+  margin: auto;
+}
+
+.dp {
+  margin-top: 3%;
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  border: 2px solid black;
+}
+
+.bottom-container {
+  background-color: #11999E;
+  margin-top: 100px;
+  padding: 10px;
+}
+
+.pro {
+  text-decoration: underline;
+  color: orange;
+}
+
+.aes, .dtu {
+  width: 150px;
+  height: 150px;
+  border: 3px solid black;
+  border-radius: 50%;
+  margin: 2rem;
+}
+
+.footer-link {
+  font-size: 22px;
+  color: black;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+.developer-img, .prog-img {
+  width: 200px;
+  margin: 10% auto;
+}
+
+.skills {
+  margin: 10% 15% 0;
+}
+
+.skill-web, .skill-c {
+  margin: 5% auto;
+  text-align: left;
+}
+
+.profile {
+  padding-top: 5%;
+  margin-bottom: 80px;
+}
+
+.intro {
+  width: 40%;
+  margin: auto;
+}
+
+.contact-me-para {
+  width: 40%;
+  margin: 40px auto 70px;
+}
+
+.contact-btn {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+  font-size: 20px;
+  background: #66BFBF;
+  padding: 10px 20px 10px 20px;
+  border: solid #1f628d 2px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.certi-img {
+  width: 100px;
+  height: 100px;
+}
+
+.contact-btn:hover {
+  background: #3caffc;
+  text-decoration: none;
+}
+
+.copyright {
+  color: white;
+  font-size: 18px;
+}
+
+@media (max-width: 870px) {
+
+  .html-image, .css-image, .js-image, .jquery-image {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media (max-width: 620px) {
+
+  .skill-web, .skill-c {
+    margin: 5% auto;
+    text-align: center;
+  }
+
+  .aes, .dtu {
+    width: 150px;
+    height: 150px;
+    border: 3px solid black;
+    border-radius: 50%;
+    margin: 3rem;
+  }
+
+  .cppsecrets {
+    width: 200px;
+    height: 50px;
+
+  }
+
+}
