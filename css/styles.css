@@ -5,6 +5,7 @@ body {
   font-size: 20px;
   color: #40514E;
   line-height: 2;
+  overflow-x: hidden;
 }
 
 h1 {
@@ -19,6 +20,7 @@ h2 {
   padding-bottom: 2rem;
   font-family: 'Montserrat', sans-serif;
   color: #66BFBF;
+  font-weight: bold;
 }
 
 h3 {
@@ -57,9 +59,20 @@ em {
   padding-top: 50px;
 }
 
+.experience {
+  display: flex;
+}
+
 .cppsecrets {
   width: 400px;
   height: 100px;
+  margin: 50px;
+}
+
+.favtutor {
+  width: 400px;
+  height: 150px;
+  margin: 25px;
 }
 
 .cpplink {
